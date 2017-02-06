@@ -8,16 +8,22 @@ The data comes from the [UCI Machine Learning Database.](https://archive.ics.uci
 1. `git clone https://github.com/waybarrios/nd101_project1.git`
 2. Download Anaconda or miniconda
 3. Create a new conda environment:
+
     ```
     conda create --name dlnd python=3
     Enter your new environment:
     Mac/Linux: >> source activate dlnd
     Windows: >> activate dlnd
     ```
+    
+    
 4. Ensure you have numpy, matplotlib, pandas, and jupyter notebook installed by doing the following:
-`conda install numpy matplotlib pandas jupyter notebook`
+
+    `conda install numpy matplotlib pandas jupyter notebook`
+
 5. Run the following to open up the notebook:
-`jupyter notebook dlnd-your-first-neural-network.ipynb`
+
+    `jupyter notebook dlnd-your-first-neural-network.ipynb`
 
 ## Reference
 https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101
